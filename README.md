@@ -1,5 +1,12 @@
 #ati_netft_ros_driver
 
+// You will need to remember to check CMakeLists.txt to install ros packages:
+// rtt_ros
+// rtt_rosclock
+// controller_manager
+// force_torque_sensor_controller
+
+
 This is the driver for the ATI NET/FT box that is used to connect to ATI F/T sensor. This repo is ported from https://code.ros.org/svn/wg-ros-pkg/stacks/netft/trunk. 
 It has been catkinized and updated for ROS Indigo. This ROS driver only supports communciation with the NET/FT device using the Raw Data Transfer (RDT) protocol (using UDP packets) over Ethernet. The NET/FT box can also be interfaced using Ethernet/IP or CAN but these modes are not supported by the ROS driver. 
 
